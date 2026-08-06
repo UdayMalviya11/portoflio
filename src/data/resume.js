@@ -3,9 +3,9 @@
 
 export const profile = {
   name: "Uday Malviya",
-  headline: "Full Stack + GenAI Engineer",
+  headline: "Full Stack Developer",
   pitch:
-    "I build scalable web applications with React, Node.js and FastAPI — and voice-driven GenAI systems powered by RAG, LangChain and pgvector.",
+    "I build scalable, high-performance applications and intelligent solutions that solve real-world problems.",
   location: "Indore, Madhya Pradesh, India",
   email: "udaymalviya2003@gmail.com",
   github: "https://github.com/UdayMalviya11",
@@ -82,7 +82,7 @@ export const projects = [
 ];
 
 export const skillGroups = [
-  { label: "Languages", items: ["C++", "Java", "JavaScript", "TypeScript", "Python"] },
+  { label: "Languages", items: ["C++", "JavaScript", "TypeScript", "Python"] },
   {
     label: "Frontend",
     items: ["React.js", "Next.js", "SSR", "State Management", "Socket.IO", "shadcn/ui", "Web Performance"],
