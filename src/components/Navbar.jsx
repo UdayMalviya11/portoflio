@@ -17,22 +17,24 @@ export default function Navbar() {
         <a href="#home" className="text-lg font-bold tracking-tight">
           UM<span className="text-emerald-600 dark:text-emerald-400">.</span>
         </a>
-        <div className="hidden items-center gap-6 md:flex">
-          {links.map(([label, href]) => (
-            <a
-              key={href}
-              href={href}
-              className="text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
-            >
-              {label}
-            </a>
-          ))}
-        </div>
-        <div className="flex items-center gap-2">
-          <ThemeToggle />
-          <Button as="a" href={profile.resumeFile} download className="h-9 px-3 text-xs">
-            <Download size={14} /> Resume
-          </Button>
+        <div className="flex items-center">
+          <div className="hidden items-center gap-8 md:flex">
+            {links.map(([label, href]) => (
+              <a
+                key={href}
+                href={href}
+                className="text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+              >
+                {label}
+              </a>
+            ))}
+          </div>
+          <div className="flex items-center gap-2 md:ml-8">
+            <ThemeToggle />
+            <Button as="a" href={profile.resumeFile} download className="h-9 px-3 text-xs">
+              <Download size={14} /> Resume
+            </Button>
+          </div>
         </div>
       </nav>
     </header>
