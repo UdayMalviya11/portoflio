@@ -1,6 +1,5 @@
 // All site content lives here — edit this file to update the portfolio.
 // NOTE: GenAI Engineer bullets are inferred (role is new, not in the PDF) — review before publishing.
-// Project links are placeholders ("#") until real URLs are supplied.
 
 export const profile = {
   name: "Uday Malviya",
@@ -9,8 +8,8 @@ export const profile = {
     "I build scalable web applications with React, Node.js and FastAPI — and voice-driven GenAI systems powered by RAG, LangChain and pgvector.",
   location: "Indore, Madhya Pradesh, India",
   email: "udaymalviya2003@gmail.com",
-  github: "https://github.com/udaymalviya",
-  linkedin: "https://www.linkedin.com/in/uday-malviya",
+  github: "https://github.com/UdayMalviya11",
+  linkedin: "https://www.linkedin.com/in/uday-malviya/",
   resumeFile: "/Uday_Malviya_Resume.pdf",
 };
 
@@ -66,7 +65,7 @@ export const projects = [
       "Real-time streaming voice pipeline over WebSockets — latency optimized with connection pooling, embedding pre-warming, and speculative prefetching.",
     ],
     tech: ["FastAPI", "Next.js", "Azure OpenAI", "pgvector", "PostgreSQL", "WebSockets"],
-    links: { live: "#", repo: "#" },
+    links: { live: "https://app-tutor-ui-bybdbrfgafe4hubf.canadacentral-01.azurewebsites.net/" },
   },
   {
     name: "Royal York W",
@@ -78,7 +77,7 @@ export const projects = [
       "Google Maps integration for location-based property visualization and management.",
     ],
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "WebRTC", "Google Maps"],
-    links: { live: "#" },
+    links: { live: "http://crm.royalyorkpropertymanagement.ca/" },
   },
 ];
 
