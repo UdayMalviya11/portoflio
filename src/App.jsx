@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <main className="mx-auto max-w-3xl px-6">
+      <main className="mx-auto max-w-6xl px-6 md:px-10">
         <Hero />
         <Experience />
         <Projects />

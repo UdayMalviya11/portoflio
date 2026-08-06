@@ -10,7 +10,7 @@ export default function Skills() {
       <div className="mt-10 space-y-6">
         {skillGroups.map((group, i) => (
           <InView key={group.label} delay={i * 0.05}>
-            <div className="grid gap-2 sm:grid-cols-[180px_1fr] sm:gap-4">
+            <div className="grid gap-2 sm:grid-cols-[220px_1fr] sm:gap-6">
               <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">{group.label}</p>
               <div className="flex flex-wrap gap-2">
                 {group.items.map((item) => (
