@@ -13,7 +13,7 @@ const links = [
 export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-200/60 bg-white/70 backdrop-blur-md dark:border-zinc-800/60 dark:bg-zinc-950/70">
-      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 md:px-10">
+      <nav className="flex h-16 w-full items-center justify-between px-6 md:px-12 lg:px-20">
         <a href="#home" className="text-lg font-bold tracking-tight">
           UM<span className="text-emerald-600 dark:text-emerald-400">.</span>
         </a>

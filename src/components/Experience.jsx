@@ -22,7 +22,7 @@ export default function Experience() {
                   <p className="text-sm text-zinc-600 dark:text-zinc-400">
                     {job.company} <span className="md:hidden">· {job.location}</span>
                   </p>
-                  <ul className="mt-3 max-w-3xl list-disc space-y-2 pl-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+                  <ul className="mt-3 max-w-4xl list-disc space-y-2 pl-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
                     {job.bullets.map((b) => (
                       <li key={b}>{b}</li>
                     ))}

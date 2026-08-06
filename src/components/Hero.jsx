@@ -25,7 +25,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.7, ease: "easeOut" }}
       >
-        <p className="mt-6 max-w-2xl leading-relaxed text-zinc-600 dark:text-zinc-400">{profile.pitch}</p>
+        <p className="mt-6 max-w-3xl leading-relaxed text-zinc-600 dark:text-zinc-400">{profile.pitch}</p>
         <p className="mt-4 flex items-center gap-1.5 text-sm text-zinc-500">
           <MapPin size={14} /> {profile.location}
         </p>
