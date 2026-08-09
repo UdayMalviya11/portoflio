@@ -107,6 +107,18 @@ export const projects = [
     },
   },
   {
+    name: "Techlog",
+    year: "2025",
+    tagline: "Tech blogging & news platform",
+    bullets: [
+      "Full-stack tech blogging platform where users create and share technology-focused posts while staying updated with the latest tech news.",
+      "User-generated content with authentication, built on the MERN stack.",
+      "Responsive interface for discovering and sharing tech-related content, deployed on Netlify.",
+    ],
+    tech: ["MongoDB", "Express.js", "React", "Node.js", "Netlify"],
+    links: { live: "https://tech-log.netlify.app/" },
+  },
+  {
     name: "Royal York W",
     year: "2025",
     tagline: "Property management CRM",
