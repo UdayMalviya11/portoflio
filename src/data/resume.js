@@ -77,7 +77,19 @@ export const projects = [
       "Handled media uploads via AWS S3 and deployed backend services to AWS for production traffic.",
     ],
     tech: ["Node.js", "Express.js", "MongoDB", "Redis", "AWS", "React.js"],
-    links: {},
+    links: { live: "https://www.mybridge.me/" },
+  },
+  {
+    name: "DocuMind",
+    year: "2026",
+    tagline: "AI-powered document search & RAG platform",
+    bullets: [
+      "AI-powered document search and chat platform — upload documents, ask natural-language questions, and get context-aware answers with source citations.",
+      "Semantic vector search with pgvector on PostgreSQL (Supabase), with RAG orchestration through LangChain and the Gemini API.",
+      "FastAPI backend and React + Tailwind CSS frontend, containerized with Docker.",
+    ],
+    tech: ["React", "Tailwind CSS", "FastAPI", "Python", "Gemini API", "LangChain", "PostgreSQL", "pgvector", "Supabase", "Docker"],
+    links: { repo: "https://github.com/UdayMalviya11/AiDocumentSearch" },
   },
   {
     name: "Royal York W",
@@ -88,7 +100,7 @@ export const projects = [
       "Real-time WebRTC audio/video calling between tenants and property owners.",
       "Google Maps integration for location-based property visualization and management.",
     ],
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "WebRTC", "Google Maps"],
+    tech: ["React.js", "Express.js", "Node.js", "MongoDB"],
     links: { live: "http://crm.royalyorkpropertymanagement.ca/" },
   },
 ];
