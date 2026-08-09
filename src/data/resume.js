@@ -92,6 +92,21 @@ export const projects = [
     links: { repo: "https://github.com/UdayMalviya11/AiDocumentSearch" },
   },
   {
+    name: "VibeConnect",
+    year: "2025",
+    tagline: "Full-stack social media platform",
+    bullets: [
+      "Full-stack social media platform on the MERN stack — user authentication, profiles, posts, and social interactions.",
+      "Real-time chat with Socket.IO for live user-to-user messaging.",
+      "Responsive interface with a focus on scalable full-stack architecture, deployed on Vercel.",
+    ],
+    tech: ["MongoDB", "Express.js", "React", "Node.js", "Socket.IO", "Vercel"],
+    links: {
+      live: "https://vibe-connect-ws2o.vercel.app/",
+      repo: "https://github.com/UdayMalviya11/VibeConnect",
+    },
+  },
+  {
     name: "Royal York W",
     year: "2025",
     tagline: "Property management CRM",
