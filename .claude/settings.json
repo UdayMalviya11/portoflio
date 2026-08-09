@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-NetTCPConnection -LocalPort 4173 -State Listen -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -Confirm:$false }; Set-Location \"c:\\\\Users\\\\vishw\\\\Downloads\\\\portfolio\"; git add -A; git commit -m \"feat: convert projects grid to horizontal snap-scroll carousel\")"
+    ]
+  }
+}

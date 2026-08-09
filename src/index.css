@@ -18,3 +18,12 @@ body {
 ::selection {
   @apply bg-emerald-500/30;
 }
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
