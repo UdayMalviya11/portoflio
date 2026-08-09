@@ -68,6 +68,18 @@ export const projects = [
     links: { live: "https://app-tutor-ui-bybdbrfgafe4hubf.canadacentral-01.azurewebsites.net/" },
   },
   {
+    name: "myBridge",
+    year: "2026",
+    tagline: "Professional networking platform",
+    bullets: [
+      "Built backend services for a networking platform supporting job postings, event management, and content publishing.",
+      "Developed REST APIs with authentication, role-based authorization, and optimized database queries for high-throughput read paths.",
+      "Handled media uploads via AWS S3 and deployed backend services to AWS for production traffic.",
+    ],
+    tech: ["Node.js", "Express.js", "MongoDB", "Redis", "AWS", "React.js"],
+    links: {},
+  },
+  {
     name: "Royal York W",
     year: "2025",
     tagline: "Property management CRM",
