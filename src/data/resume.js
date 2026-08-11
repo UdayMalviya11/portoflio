@@ -119,6 +119,19 @@ export const projects = [
     links: { live: "https://tech-log.netlify.app/" },
   },
   {
+    name: "Kabia Travels",
+    year: "2025",
+    tagline: "Travel booking & content platform",
+    bullets: [
+      "Developed backend REST APIs using Django for travel packages, destinations, vlogs, bookings, and content management.",
+      "Designed PostgreSQL data models, relationships, and business logic to support travel operations and dynamic content workflows.",
+      "Implemented API validation, data processing, and backend workflows, integrating Django services with the Angular frontend.",
+      "Deployed and configured the application on AWS EC2, managing the production environment and application releases.",
+    ],
+    tech: ["Django", "PostgreSQL", "Angular", "AWS EC2"],
+    links: { live: "https://kabiatravels.com/" },
+  },
+  {
     name: "Royal York W",
     year: "2025",
     tagline: "Property management CRM",
@@ -140,7 +153,7 @@ export const skillGroups = [
   },
   {
     label: "Backend",
-    items: ["Node.js", "Express.js", "FastAPI", "REST APIs", "GraphQL", "Event-Driven Architecture"],
+    items: ["Node.js", "Express.js", "FastAPI", "Django", "REST APIs", "GraphQL", "Event-Driven Architecture"],
   },
   { label: "Databases & Caching", items: ["PostgreSQL", "MongoDB", "Redis", "pgvector"] },
   {
