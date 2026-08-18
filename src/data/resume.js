@@ -16,28 +16,16 @@ export const profile = {
 export const experience = [
   {
     company: "ZenQua Technologies Pvt. Ltd.",
-    role: "GenAI Engineer",
-    period: "Apr 2026 – Present",
-    location: "Indore, India · On-site",
-    bullets: [
-      "Developing GenAI product features end to end — RAG pipelines, hybrid retrieval (vector + full-text search), and LLM orchestration with LangChain and LangGraph.",
-      "Building FastAPI services backing AI features, with PostgreSQL and pgvector for embedding storage and retrieval.",
-      "Optimizing LLM response latency with Redis caching, connection pooling, and streaming responses over WebSockets.",
-    ],
-    tech: ["Python", "FastAPI", "LangChain", "LangGraph", "pgvector", "Azure OpenAI", "Redis"],
-  },
-  {
-    company: "ZenQua Technologies Pvt. Ltd.",
     role: "Associate Software Engineer",
-    period: "Jul 2025 – Apr 2026",
+    period: "Jul 2025 – Present",
     location: "Indore, India · On-site",
     bullets: [
-      "Engineered scalable web applications using React.js, TypeScript, and API-driven architecture, contributing across frontend and backend systems.",
-      "Designed and optimized RESTful APIs to improve data efficiency and system performance.",
-      "Implemented Redis caching to reduce API latency and enhance application responsiveness.",
-      "Collaborated on deployments using AWS, ensuring scalable and reliable production systems.",
+      "Developed scalable web applications using React.js, Next.js, TypeScript, and API-driven architecture across frontend and backend systems.",
+      "Designed and optimized RESTful APIs with efficient data handling and database queries for improved performance.",
+      "Designed MySQL schemas and modular backend services, improving application maintainability and scalability.",
+      "Deployed and maintained production applications on AWS, supporting scalable and reliable services.",
     ],
-    tech: ["React.js", "TypeScript", "Node.js", "REST APIs", "Redis", "AWS"],
+    tech: ["React.js", "Next.js", "TypeScript", "Node.js", "MySQL", "REST APIs", "AWS"],
   },
   {
     company: "Fin Coopers Tech Pvt Ltd.",
@@ -45,12 +33,13 @@ export const experience = [
     period: "Apr 2025 – Jun 2025",
     location: "Indore, India · On-site",
     bullets: [
-      "Built and maintained RESTful APIs using Node.js, Express.js, and MongoDB, powering core backend modules.",
-      "Designed MongoDB schemas and integrated backend services with clean, modular architecture for scalability.",
-      "Implemented real-time functionality using WebSockets, enabling live data updates across the application.",
-      "Implemented secure Google OAuth 2.0 authentication, enabling seamless user sign-in and protected application access.",
+      "Developed RESTful APIs using Node.js, Express.js, and MySQL for core application workflows.",
+      "Built scalable web applications using Next.js and React.js, implementing reusable components and server-side functionality.",
+      "Implemented Redis caching for frequently accessed data, reducing redundant database queries and API latency.",
+      "Implemented real-time features using WebSockets for live data updates across the application.",
+      "Integrated secure Google OAuth 2.0 authentication for user sign-in and protected application access.",
     ],
-    tech: ["Node.js", "Express.js", "MongoDB", "WebSockets", "OAuth 2.0"],
+    tech: ["Node.js", "Express.js", "MySQL", "Next.js", "Redis", "WebSockets", "OAuth 2.0"],
   },
 ];
 
@@ -72,11 +61,12 @@ export const projects = [
     year: "2026",
     tagline: "Professional networking platform",
     bullets: [
-      "Built backend services for a networking platform supporting job postings, event management, and content publishing.",
-      "Developed REST APIs with authentication, role-based authorization, and optimized database queries for high-throughput read paths.",
-      "Handled media uploads via AWS S3 and deployed backend services to AWS for production traffic.",
+      "Built backend services for a networking platform supporting 5+ core modules including jobs, events, and content publishing.",
+      "Developed 15+ REST APIs with authentication, role-based authorization, Redis caching, and optimized MySQL queries.",
+      "Integrated AWS S3 for media storage and deployed backend services on AWS for production workloads.",
+      "Implemented language localization supporting 10+ languages for a multilingual user experience.",
     ],
-    tech: ["Node.js", "Express.js", "MongoDB", "Redis", "AWS", "React.js"],
+    tech: ["Node.js", "Express.js", "MySQL", "Redis", "AWS", "React.js"],
     links: { live: "https://www.mybridge.me/" },
   },
   {
@@ -136,11 +126,11 @@ export const projects = [
     year: "2025",
     tagline: "Property management CRM",
     bullets: [
-      "Core CRM modules built with React.js and Node.js for property management workflows.",
-      "Real-time WebRTC audio/video calling between tenants and property owners.",
-      "Google Maps integration for location-based property visualization and management.",
+      "Built 5+ CRM modules using React.js and Node.js for property management and tenant workflows.",
+      "Implemented centralized state management using Redux, improving data flow and state consistency across CRM modules.",
+      "Designed and integrated MongoDB database schemas and queries for managing property, tenant, and workflow data.",
     ],
-    tech: ["React.js", "Express.js", "Node.js", "MongoDB"],
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Redux"],
     links: { live: "http://crm.royalyorkpropertymanagement.ca/" },
   },
 ];
@@ -149,13 +139,13 @@ export const skillGroups = [
   { label: "Languages", items: ["C++", "JavaScript", "TypeScript", "Python"] },
   {
     label: "Frontend",
-    items: ["React.js", "Next.js", "SSR", "State Management", "Socket.IO", "shadcn/ui", "Web Performance"],
+    items: ["React.js", "Next.js", "Redux", "SSR", "State Management", "Socket.IO", "shadcn/ui", "Web Performance"],
   },
   {
     label: "Backend",
     items: ["Node.js", "Express.js", "FastAPI", "Django", "REST APIs", "GraphQL", "Event-Driven Architecture"],
   },
-  { label: "Databases & Caching", items: ["PostgreSQL", "MongoDB", "Redis", "pgvector"] },
+  { label: "Databases & Caching", items: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "pgvector"] },
   {
     label: "AI / GenAI",
     items: ["LangChain", "LangGraph", "RAG", "Prompt Engineering", "Knowledge Base Design"],
