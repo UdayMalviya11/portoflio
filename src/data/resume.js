@@ -136,7 +136,7 @@ export const projects = [
 ];
 
 export const skillGroups = [
-  { label: "Languages", items: ["C++", "JavaScript", "TypeScript", "Python"] },
+  { label: "Languages", items: ["JavaScript", "TypeScript", "Python", "C++"] },
   {
     label: "Frontend",
     items: ["React.js", "Next.js", "Redux", "SSR", "State Management", "Socket.IO", "shadcn/ui", "Web Performance"],
